@@ -1,0 +1,4 @@
+Projeto Campo Minado em C + raylib.
+No Visual Studio: instale raylib (ex.: vcpkg), crie um projeto C e adicione jogo.c, jogo.h e interface.c. Configure o projeto para localizar/linkar raylib e suas dependencias. Nao adicione o main() original, pois interface.c ja contem main().
+Controles: clique esquerdo abre, direito marca bandeira, 1 facil (9x9/10), 2 medio (16x16/40), R reinicia.
+A primeira casa clicada nao recebe mina; bandeiras nao sao abertas pela recursao.
